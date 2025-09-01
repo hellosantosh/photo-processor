@@ -15,44 +15,44 @@ Supports **JPG, PNG, and Nikon `.NEF` RAW files**. Runs fully **offline** to sav
 
 ## ⚙️ Setup
 
-### 1. Create a conda environment and activate it
+#### 1. Create a conda environment and activate it
 ```bash
 conda create --name photo-processor python=3.10
 conda activate photo-processor
 ```
 
-### 2. Install Dependencies
-#### PyTorch core (CPU version by default)
+#### 2. Install Dependencies
+##### PyTorch core (CPU version by default)
 ```bash
 pip install torch torchvision torchaudio
 ```
 
-#### Hugging Face Transformers (CLIP model + processor)
+##### Hugging Face Transformers (CLIP model + processor)
 ```bash
 pip install transformers
 ```
 
-#### Extra dependency for some vision models
+##### Extra dependency for some vision models
 ```bash
 pip install timm
 ```
 
-#### Image handling (JPG/PNG)
+##### Image handling (JPG/PNG)
 ```bash
 pip install pillow
 ```
 
-#### Blur detection
+##### Blur detection
 ```bash
 pip install opencv-python
 ```
 
-#### RAW photo support (e.g., Nikon .NEF)
+##### RAW photo support (e.g., Nikon .NEF)
 ```bash
 pip install rawpy
 ```
 
-#### Progress bar
+##### Progress bar
 ```bash
 pip install tqdm
 ```
