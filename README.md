@@ -72,6 +72,7 @@ undecided/
 
 ## 📂 Example Folder Structure
 
+```
 Before running:
 
 photos/
@@ -93,6 +94,7 @@ photos/
 │   └── IMG_003.NEF
 ├── undecided/
 │   └── IMG_004.PNG
+```
 
 ## 📝 Notes
 
