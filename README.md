@@ -70,7 +70,7 @@ best/
 bad-focus/
 undecided/
 
-📂 Example Folder Structure
+## 📂 Example Folder Structure
 
 Before running:
 
@@ -94,7 +94,7 @@ photos/
 ├── undecided/
 │   └── IMG_004.PNG
 
-📝 Notes
+## 📝 Notes
 
 Blur detection: Uses variance of Laplacian to catch out-of-focus photos.
 
@@ -104,7 +104,7 @@ Multi-threaded: Processes photos faster using multiple threads.
 
 RAW support: Handles Nikon .NEF files and converts them to RGB for scoring and blur detection.
 
-💡 Tips for Best Results
+## 💡 Tips for Best Results
 
 Works best on batches of recent vacation photos you want to quickly clean up and organize.
 
